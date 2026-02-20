@@ -12,8 +12,7 @@ html, body {
     width: 100%;
     max-width: 100vw;
     overflow-x: hidden;
-    background-color: var(--bege-linho);
-    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+    background: linear-gradient(180deg, #dcd7bb 0%, #b2b7a0 50%, #383535c0 100%) no-repeat fixed;
     color: var(--marrom-nobre);
     font-family: 'Inter', sans-serif;
 }
@@ -24,7 +23,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 60px 10%;
-    background-color: #ffffff;
+    background: linear-gradient(180deg, #dcd7bb 0%, #b2b7a0 50%, #383535c0 100%) no-repeat fixed;
     border-bottom: 1px solid rgba(212, 175, 55, 0.15);
 }
 
@@ -123,14 +122,16 @@ html, body {
     font-style: italic;
     font-size: 1.5rem;
     padding: 60px 20px;
-    color: #5d4037;
-    background: white;
+    color: #fff705;
+    background: linear-gradient(180deg, #908c79 0%, #8a6d23ec 50%, #383535c0 100%) no-repeat fixed;
+    border-radius: 1000px;
+  
 }
 
 .detalhe-ouro { color: var(--ouro); margin: 0 10px; }
 
 /* --- BOTÃO DE AÇÃO PREMIUM --- */
-.area-conversao { padding-bottom: 80px; background: white; }
+.area-conversao { padding-bottom: 80px; background: linear-gradient(180deg, #dcd7bb 0%, #b2b7a0 50%, #383535c0 100%) no-repeat fixed; }
 
 .butt {
     display: flex;
